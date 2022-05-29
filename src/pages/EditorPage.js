@@ -71,8 +71,9 @@ const EditorPage = () => {
 
     } catch (err) {
       
-      toast.error('Could not copy Room ID') ;
-      console.error(err); 
+      // toast.error('Could not copy Room ID') ;
+      // console.error(err); 
+      alert(`Copy from here: ${roomId}`) ;
 
     }
   }
