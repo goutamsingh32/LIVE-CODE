@@ -74,7 +74,7 @@ const Home = () => {
   return (
     <div className = "homePageWrapper">
         <div className="formWrapper">
-            <img className = "homePageLogo"src="/logo.png" alt="mock-code logo" />
+            <img className = "homePageLogo"src="https://rubylazaro.files.wordpress.com/2014/02/livecode-110dpi.png" alt="mock-code logo" />
             <h4 className="mainLabel">Paste invitation ROOM ID</h4>
             <div className="inputGroup">
                 <input 
@@ -93,19 +93,22 @@ const Home = () => {
                      onChange = { (e) => setUsername(e.target.value)} 
                      onKeyUp = {handleEnterKey}/>
 
-                <button 
-                    className="btn joinBtn" 
-                    onClick={joinRoom}>Join</button>
+                <div className='enterButton'>
+                    <button 
+                        className="btn joinBtn" 
+                        onClick={createNewRoom}>Create</button>
+                    
+                    <button 
+                        className="btn joinBtn" 
+                        onClick={joinRoom}>Join</button>
+                </div>
 
-                <span className="createInfo">
-                    If you don't have an invite then create &nbsp;
-                    <a  onClick = {createNewRoom} href="#" className="createNewBtn">new room</a>
-                </span>
+              
             </div>
         </div>
 
         <footer>
-            <h4>Built with 💛 by <a href="https://www.linkedin.com/in/aditya-prakash-pandewa-b3628718b/">Aditya</a></h4>
+            <h4>	&#174; <a href="https://github.com/goutamsingh32?tab=repositories">gomzee</a></h4>
         </footer>
     </div>
   )

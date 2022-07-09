@@ -93,7 +93,7 @@ const EditorPage = () => {
         <div className="asideInner">
 
           <div className="logo">
-            <img className = 'logoImage' src="/logo.png" alt="logo" />
+            <img className = 'logoImage' src="https://rubylazaro.files.wordpress.com/2014/02/livecode-110dpi.png" alt="logo" />
           </div>
           <h3>Connected</h3>
 

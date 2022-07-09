@@ -9,7 +9,7 @@ function App() {
    <>
       <div>
         <Toaster 
-        position = "top-center" 
+        position = "bottom-right" 
         toastOptions = { {
             success : {
               theme : {
